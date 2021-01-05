@@ -13,11 +13,13 @@ class B_ViewController: UIViewController {
     @IBOutlet weak var outputLabel: UILabel!
 
         // 1. 遷移先に渡したい値を格納する変数を用意する
-        var outputValue : String?
+        var outputValue : String!
 
         override func viewDidLoad() {
             super.viewDidLoad()
-            outputLabel.text = outputValue
+            
+            
+            outputLabel.text = "こんにちは、" + outputValue + "さん"
             
         }
     }

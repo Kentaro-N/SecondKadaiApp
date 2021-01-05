@@ -76,27 +76,13 @@
                                     <segue destination="cqZ-XP-jAN" kind="unwind" unwindAction="unwind:" id="ava-Eq-8EJ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="こんにちは、" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ul2-Zx-EeI">
-                                <rect key="frame" x="58" y="100" width="123" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="さん" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bm4-OC-cDi">
-                                <rect key="frame" x="277" y="100" width="41" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="Xok-LZ-uTC" firstAttribute="top" secondItem="IHx-3e-IJi" secondAttribute="top" constant="100" id="8Cn-3g-htO"/>
-                            <constraint firstItem="5mI-bD-gEu" firstAttribute="centerX" secondItem="upL-Tk-hAE" secondAttribute="centerX" id="CMK-S5-IfP"/>
-                            <constraint firstItem="5mI-bD-gEu" firstAttribute="top" secondItem="Xok-LZ-uTC" secondAttribute="bottom" constant="100" id="UH2-nN-yu5"/>
-                            <constraint firstItem="Xok-LZ-uTC" firstAttribute="centerX" secondItem="upL-Tk-hAE" secondAttribute="centerX" id="zWr-vL-RyX"/>
+                            <constraint firstItem="Xok-LZ-uTC" firstAttribute="top" secondItem="IHx-3e-IJi" secondAttribute="top" constant="100" id="3nd-YV-D5j"/>
+                            <constraint firstItem="5mI-bD-gEu" firstAttribute="centerX" secondItem="upL-Tk-hAE" secondAttribute="centerX" id="e1K-lh-Jmp"/>
+                            <constraint firstItem="Xok-LZ-uTC" firstAttribute="centerX" secondItem="upL-Tk-hAE" secondAttribute="centerX" id="jXy-dK-k3f"/>
+                            <constraint firstItem="5mI-bD-gEu" firstAttribute="top" secondItem="Xok-LZ-uTC" secondAttribute="bottom" constant="100" id="yqw-8t-f4N"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="IHx-3e-IJi"/>
                     </view>
